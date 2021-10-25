@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:background="#a58650"
+    android:padding="3dp">
+
+    <ImageView
+        android:id="@+id/piece"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/fileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/rankName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+
+        android:textColor="@color/white" />
+</FrameLayout>
