@@ -1,4 +1,4 @@
-package com.chess.kchess
+import Color.PieceColor
 
-open class ChessPiece ( var pieceType: PieceType, var pieceColor: PieceColor) {
+data class ChessPiece(var position:Position, var pieceType: PieceType, var pieceColor: PieceColor) {
 }

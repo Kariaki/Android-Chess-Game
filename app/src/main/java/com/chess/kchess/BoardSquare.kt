@@ -1,5 +1,8 @@
-package com.chess.kchess
+import Color.SquareColor
 
-import com.chess.kchess.Adapter.SuperEntity
-
-class BoardSquare ( type:Int = 0,var chessPiece: ChessPiece?=null):SuperEntity(type)
+data class BoardSquare
+    (
+    var squareColor: SquareColor,
+    var chessPiece: ChessPiece?=null,
+    var squareName:String=""
+)

@@ -1,4 +1,4 @@
 package com.chess.kchess
 
-class Pawn{
+enum class PlayerTurn {
 }
