@@ -1,4 +1,4 @@
 package com.chess.kchess
 
-class MovedPiece {
+object PieceMoves {
 }
